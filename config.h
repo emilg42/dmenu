@@ -19,12 +19,12 @@
 /* appearance */
 static int topbar                      = 1;       /* -b  option; if 0, dmenu appears at bottom     */
 static const unsigned int alpha        = 0xBE;	  /* transparency value (see alpha patch)          */
-static unsigned int lines              = 12; 	  /* -l option; otherwise vertical 				   */
+static unsigned int lines              = 12; 	  /* -l option; otherwise vertical 		   */
 static unsigned int lineheight         = 24; 	  /* -h option; height of a menu line              */
 static unsigned int min_lineheight     = 24;	  /* minimum height: applies as lower threshold    */
-static const unsigned int border_width = 3; 	  /* size of the window border 					   */
+static const unsigned int border_width = 3; 	  /* size of the window border 			   */
 static const char *prompt              = NULL;    /* -p  option; prompt to the left of input field */
-static const char worddelimiters[] = " ";		  /* non-word characters, such as: " /?\"&[]"	   */
+static const char worddelimiters[] = " ";	  /* non-word characters, such as: " /?\"&[]"	   */
 
 static const char *fonts[]             = {"Noto Sans Mono:style=Bold:size=13:antialias=true:autohint=true",
                                           "consolas:size=15:antialias=true:autohint=true"};
