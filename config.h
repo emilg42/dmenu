@@ -9,8 +9,10 @@
  * - center (https://tools.suckless.org/dmenu/patches/center)
  * - highlight (https://tools.suckless.org/dmenu/patches/highlight)
  * - lineheight (https://tools.suckless.org/dmenu/patches/line-height)
- * - alpha (https://tools.suckless.org/dmenu/patches/alpha/)
- * - numbers (https://tools.suckless.org/dmenu/patches/numbers/)
+ * - alpha (https://tools.suckless.org/dmenu/patches/alpha)
+ * - numbers (https://tools.suckless.org/dmenu/patches/numbers)
+ * - highpriority (https://tools.suckless.org/dmenu/patches/highpriority)
+ * - case-insensivitive (https://tools.suckless.org/dmenu/patches/case-insensitive)
  *
  */                                 
 
@@ -26,8 +28,7 @@ static const unsigned int border_width = 3; 	  /* size of the window border     
 static const char *prompt              = NULL;    /* -p  option; prompt to the left of input field */
 static const char worddelimiters[]     = " ";     /* non-word characters, such as: " /?\"&[]"      */
 
-static const char *fonts[]             = {"Noto Sans Mono:style=Bold:size=13:antialias=true:autohint=true",
-                                          "consolas:size=15:antialias=true:autohint=true"};
+static const char *fonts[]          = { "JetBrains Mono:style=Bold:size=14:antialias=true" };
 
 
 static const char *colors[SchemeLast][2] = {
@@ -37,6 +38,7 @@ static const char *colors[SchemeLast][2] = {
 	[SchemeSelHighlight]  = { "#de935f", "#004763" },
 	[SchemeNormHighlight] = { "#de935f", "#1e1e1e" },
 	[SchemeOut]           = { "#000000", "#1e1e1e" },
+	[SchemeHp]            = { "#a54242", "#1e1e1e" }
 };
 
 static const unsigned int alphas[SchemeLast][2] = {
