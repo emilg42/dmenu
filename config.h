@@ -33,12 +33,12 @@ static const char *fonts[]          = { "JetBrains Mono:style=Bold:size=14:antia
 
 static const char *colors[SchemeLast][2] = {
 	/* color scheme           fg         bg        */
-	[SchemeNorm]          = { "#a9a9a9", "#1e1e1e" },
-	[SchemeSel]           = { "#a9a9a9", "#004763" },
-	[SchemeSelHighlight]  = { "#de935f", "#004763" },
-	[SchemeNormHighlight] = { "#de935f", "#1e1e1e" },
-	[SchemeOut]           = { "#000000", "#1e1e1e" },
-	[SchemeHp]            = { "#a54242", "#1e1e1e" }
+	[SchemeNorm]          = { "#9197A1", "#101b21" },
+	[SchemeSel]           = { "#9197A1", "#22577A" },
+	[SchemeSelHighlight]  = { "#de935f", "#22577A" },
+	[SchemeNormHighlight] = { "#de935f", "#101b21" },
+	[SchemeOut]           = { "#000000", "#101b21" },
+	[SchemeHp]            = { "#a54242", "#101b21" }
 };
 
 static const unsigned int alphas[SchemeLast][2] = {
